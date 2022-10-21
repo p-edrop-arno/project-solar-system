@@ -6,11 +6,11 @@ import Title from './components/Title';
 class App extends Component {
   render() {
     return (
-      <section>
+      <div>
         <Header />
         <SolarSystem />
         <Title />
-      </section>
+      </div>
     );
   }
 }
